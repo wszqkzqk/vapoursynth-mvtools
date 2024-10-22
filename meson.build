@@ -79,6 +79,8 @@ elif host_cpu_family == 'arm'
   host_bits = 32
 elif host_cpu_family == 'aarch64'
   host_bits = 64
+elif host_cpu_family == 'loongarch64'
+  host_bits = 64
 endif
 
 
